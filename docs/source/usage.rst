@@ -12,9 +12,13 @@ To run the FlowPoint application locally:
    git clone https://github.com/SETAPGroup-C3/iteration2
    ```
 
-2. Either in Visual Studio Code or in Command Prompt, change directory to the location iteration2 was cloned
+2. Either in Visual Studio Code cmd or in Command Prompt
 
-3. run "npm start" in the console
+3. Change directory to the location iteration2 was cloned
+
+4. Run "npm start" in the console
+
+5. Go on any browser and type in 127.0.0.1:8080/
 
 Functionality Overview
 ----------------------
