@@ -9,12 +9,12 @@ To run the FlowPoint application locally:
 
 1. Clone the GitHub repository:
    ```
-   git clone https://github.com/SETAPGroup-C3
+   git clone https://github.com/SETAPGroup-C3/iteration2
    ```
 
-2. Open the project folder and launch `index.html` in a web browser.
+2. Either in Visual Studio Code or in Command Prompt, change directory to the location iteration2 was cloned
 
-3. Make sure the browser allows local storage or has SQLite support for persistent data.
+3. run "npm start" in the console
 
 Functionality Overview
 ----------------------
