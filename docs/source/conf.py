@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Flowpoint'
+copyright = '2025, SETAPGroup3C'
+author = 'SETAPGroup3C'
 
 release = '0.1'
 version = '0.1.0'
