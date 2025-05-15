@@ -1,34 +1,48 @@
-Usage
-=====
 
-.. _installation:
+Usage Guide
+===========
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To run the FlowPoint application locally:
 
-.. code-block:: console
+1. Clone the GitHub repository:
+   ```
+   git clone https://github.com/SETAPGroup-C3
+   ```
 
-   (.venv) $ pip install lumache
+2. Open the project folder and launch `index.html` in a web browser.
 
-Creating recipes
-----------------
+3. Make sure the browser allows local storage or has SQLite support for persistent data.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Functionality Overview
+----------------------
 
-.. autofunction:: lumache.get_random_ingredients
+**Projects and Tasks**
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+- Create projects via the main dashboard
+- Add tasks with titles, deadlines, and descriptions
+- Tasks can be moved between status categories
 
-.. autoexception:: lumache.InvalidKindError
+**Friend System**
 
-For example:
+- Navigate to the Friends tab
+- Search for users by username
+- Send, accept, and revoke friend requests
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+**Chat System**
+
+- Direct message friends or team members
+- Access chat via the chat icon in the navbar
+
+**Project Management**
+
+- Assign users to projects
+- Modify project details such as title and deadline
+- Delete projects from the system
+
+**No AI Features**
+
+AI-based functionality such as automated task assignment was originally considered, but not implemented due to time constraints.
 
